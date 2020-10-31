@@ -20,11 +20,6 @@ body {
     text-align: center;
 }
 
-.grid-download a {
-    text-align: center;
-    vertical-align: middle;
-}
-
 .left {
     grid-area: a;
     vertical-align: middle;
@@ -231,6 +226,10 @@ h6 { font-size: 11px; line-height: normal;}
 .main-content {
     width: 100%;
     margin: 50px 0 0 0; 
+}
+
+.main-content a {
+    text-decoration: none;
 }
 
 .main-gap {
@@ -675,17 +674,6 @@ button {
 
 
 /** PRAS **/
-
-
-.aruco-logo {
-    
-    width: 600px;
-    position: absolute;
-    left: 50%;
-    transform:translateX(-50%);
-
-
-}
 
 .start-button {
     border-radius: 5px;
