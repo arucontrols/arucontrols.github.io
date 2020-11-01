@@ -67,6 +67,10 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 
+a {
+    text-decoration: none;
+}
+
 :root {
     --primary: #01A0C6;
     --secondary: #FFF3E6;
@@ -226,10 +230,6 @@ h6 { font-size: 11px; line-height: normal;}
 .main-content {
     width: 100%;
     margin: 50px 0 0 0; 
-}
-
-.main-content a {
-    text-decoration: none;
 }
 
 .main-gap {
