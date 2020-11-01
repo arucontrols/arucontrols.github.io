@@ -35,9 +35,10 @@ body {
 .footer {
     width: 100%;
     position: absolute;
-    bottom: 50px;
     text-align: center;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 50px;
 }
 
 
@@ -690,13 +691,16 @@ button {
 
 .start-button:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    transform: translateY(-3px);
     transition: all 0.3s ease;
 } 
 
-.start-button:active {
-    /* background-color: var(--accent);
-    box-shadow: 0 5px rgba(0,0,0,0.24);
-    transform: translateY(.001px); */
+.start-button:focus {
+    transform: translateY(5px);
+}
+
+.start-button:visited {
+    text-decoration: none;
 }
 
 .mainPage {
